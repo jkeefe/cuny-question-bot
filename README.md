@@ -5,7 +5,7 @@ Initially designed for and with students at the CUNY Graduate School of Journali
 
 ## Setting Up Lambda
 
-_NOTE: [Amazon Web Services](aws.amazon.com) (AWS) is not what I'd call beginner-friendly. But dive in if you can. To use the code in this repo, you'll need to create a new AWS user in the "Identity and Access Management" part of AWS (which is called IAM). That user, which I've called `lambda-master`, needs IAM full access, Lambda full access and API Gateway Administrator privileges. More about getting up to speed is nicely written up by the folks who made claudia.js(https://claudiajs.com/tutorials/installing.html)_
+_NOTE: [Amazon Web Services](aws.amazon.com) (AWS) is not what I'd call beginner-friendly. But dive in if you can. To use the code in this repo, you'll need to create a new AWS user in the "Identity and Access Management" part of AWS (which is called IAM). That user, which I've called `lambda-master`, needs IAM full access, Lambda full access and API Gateway Administrator privileges. More about getting up to speed is nicely written up by the folks who made [claudia.js](https://claudiajs.com/tutorials/installing.html)_
 
 Load in Claudia and the other dependencies:
 
