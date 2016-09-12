@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "question-bot-executor",
+    "name": "question-bot",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "xxxxxxxxxx",
+    "module": "lambda"
+  }
+}
