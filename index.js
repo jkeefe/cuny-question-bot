@@ -25,47 +25,61 @@ var question_list = [
 
     {"answered_cookie": "first", 
     "response": {
-        "english":"Thanks for taking our quick survey! On a scale of 1-5, how do you rate your relationship to the police? (1=Friendly, 5=Hostile)",
-        "spanish":"Gracias por participar en nuestra encuesta. ¿Cómo respondería en la escala del 1 al 5, cómo califica su relación con la policía? (1=amigable, 5=hostil)"
+        "english":"Thanks for taking our quick survey! On a scale of 1-5, how do you rate your relationship to the police? (1=Respectful, 5=Hostile)",
+        "spanish":"Gracias por participar en nuestra encuesta. ¿Cómo respondería en la escala del 1 al 5, cómo califica su relación con la policía? (1=Respetuoso, 5=hostil)"
         }, 
     "set_cookie": "relationship"},
     
     {"answered_cookie": "relationship", 
     "response": {
-        "english":"On a scale of 1-5, how do you feel about the statement: The NYPD is a threat to my safety? (1=Strongly Agree, 5=Strongly Disagree)",
-        "spanish":"¿Cómo respondería en la escala del 1 al 5, el Departamento de Policía es una amenaza para mi seguridad? (1=muy de acuerdo, 5=muy en desacuerdo)"
+        "english":"On a scale of 1-5, how do you feel about the statement: The NYPD is a threat to my safety? (1=Strongly disagree, 5=Strongly agree)",
+        "spanish":"¿Cómo respondería en la escala del 1 al 5, el Departamento de Policía es una amenaza para mi seguridad? (1=muy en desacuerdo, 5=muy de acuerdo)"
         }, 
     "set_cookie": "safety"},
 
     {"answered_cookie": "safety", 
     "response": {
-        "english":"Have you ever seen a police officer use unjustified violence in your community? REPLY Yes or No",
-        "spanish":"¿Alguna vez ha visto a un agente de la policía usar violencia injustificada en su comunidad? RESPONDA Sí o No"
+        "english":"Have you ever seen a police officer use unjustified force in your community? REPLY Yes or No",
+        "spanish":"¿Alguna vez ha visto a un agente de la policía usar fuerza injustificada en su comunidad? RESPONDA Sí o No"
         }, 
-    "set_cookie": "violence"},
+    "set_cookie": "force"},
     
-    {"answered_cookie": "violence", 
+    {"answered_cookie": "force", 
     "response": {
-        "english":"Halfway there! On a scale of 1-5, how do you feel about the statement: Police unfairly target young black & latino people in my neighborhood? (1=Strongly Agree 5=Strongly Disagree)",
-        "spanish":"¡Ya casi terminamos! ¿Cómo respondería en la escala del 1 al 5, policía se enfoca injustamente en jóvenes negros y latinos en mi vecindario?(1=muy de acuerdo, 5=muy en desacuerdo)"
+        "english":"On a scale of 1-5, how do you feel about the statement: Police unfairly target young black & latino people in my neighborhood? (1=Strongly disagree 5=Strongly Agree)",
+        "spanish":"¿Cómo respondería en la escala del 1 al 5, policía se enfoca injustamente en jóvenes negros y latinos en mi vecindario?(1=muy en desacuerdo, 5=muy de acuerdo)"
         }, 
     "set_cookie": "target"},
-    
+
     {"answered_cookie": "target", 
     "response": {
-        "english":"How old are you? REPLY (ex. 12, 50, 27, etc.)",
+        "english":"How many pink slip summonses have you received?",
+        "spanish":"¿Citaciones penales, cuántos has recibido?"
+        }, 
+    "set_cookie":"summons"},
+    
+    {"answered_cookie": "summons", 
+    "response": {
+        "english":"How old are you? REPLY (ex. 12, 50, 27, etc)",
         "spanish":"¿Cuántos años tiene? RESPONDA (por ejemplo 12, 50, 27)"
         }, 
     "set_cookie":"age"},
     
     {"answered_cookie": "age", 
     "response": {
-        "english":"What is your race & gender? REPLY: Black woman, Latino man, etc.",
-        "spanish":"¿Cuál es su raza y su género? RESPONDA: Como ejemplo puede usted responder mujer negra, hombre latino, etc"
+        "english":"What is your race? REPLY (ex. Black, White, Latino, etc)",
+        "spanish":"¿Cuál es su raza? RESPONDA: Como ejemplo puede usted responder negro, latino, etc"
         }, 
-    "set_cookie": "demographics"},
+    "set_cookie": "race"},
     
-    {"answered_cookie": "demographics", 
+    {"answered_cookie": "race", 
+    "response": {
+        "english":"What is your gender? REPLY (ex.Man, Woman etc)",
+        "spanish":"¿Cuál es su género? RESPONDA: Como ejemplo puede usted responder mujer, hombre, etc"
+        }, 
+    "set_cookie": "gender"},
+    
+    {"answered_cookie": "gender", 
     "response": {
         "english":"Almost done! Can we contact you? REPLY Yes or No",
         "spanish":"¡Ya casi terminamos! ¿Podemos contactarlo? RESPONDA Sí o No."
